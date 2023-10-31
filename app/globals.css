@@ -78,3 +78,7 @@
 }
 
 /*------------------- custom styling -------------------------*/
+* {
+  scroll-behavior: smooth;
+  font-family: var(--font-poppins);
+}
