@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-primary text-gray-200 p-3 flex justify-between items-center">
-      <Image src="/images/sign.png" height={100} width={100} alt="signature" />
+      <Image src="/images/sign2.png" height={100} width={100} alt="signature" />
 
       <button className="flex gap-1 text-2xl" onClick={toggleTheme}>
         {theme === "light" ? <BiSolidMoon /> : <BiSun />}
