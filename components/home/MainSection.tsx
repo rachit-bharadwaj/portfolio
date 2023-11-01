@@ -1,8 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 
 // shadcn
 import { Button } from "../ui/button";
-import Link from "next/link";
 
 const MainSection = () => {
   return (
@@ -27,11 +27,11 @@ const MainSection = () => {
 
       <div className="flex gap-5 lg:mt-10">
         <Button variant="outline" size="lg">
-          <Link href="/resume.pdf">Resume</Link>
+          <Link href="/resume.pdf" className="text-lg">Resume</Link>
         </Button>
 
         <Button variant="secondary" size="lg">
-          <Link href="/about">About me</Link>
+          <Link href="/about" className="text-lg">About me</Link>
         </Button>
       </div>
     </section>

@@ -28,7 +28,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`dark:bg-gradient h-screen transition-opacity duration-500 ${poppins.variable}`}>
+      <body
+        className={`bg-gradient-light dark:bg-gradient text-dark dark:text-light h-screen transition-opacity duration-500 ${poppins.variable}`}
+      >
         <ThemeProvider>
           <Header />
 

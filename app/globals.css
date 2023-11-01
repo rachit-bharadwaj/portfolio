@@ -84,8 +84,8 @@
 }
 
 ::selection {
-  color: #9400FF;
-  background: #AED2FF;
+  color: #9400ff;
+  background: #aed2ff;
 }
 
 .bg-blur {
@@ -93,9 +93,7 @@
   -webkit-backdrop-filter: blur(16px) saturate(180%);
 }
 
-
-
-@layer utilities{
+@layer utilities {
   .bg-gradient {
     background-color: hsla(19, 0%, 8%, 1);
     background-image: radial-gradient(
@@ -103,7 +101,19 @@
         hsla(240, 100%, 18%, 0.75) 0px,
         transparent 50%
       ),
-      radial-gradient(at 100% 0%, hsla(266, 100%, 26%, 0.75) 0px, transparent 50%);
+      radial-gradient(
+        at 100% 0%,
+        hsla(266, 100%, 26%, 0.75) 0px,
+        transparent 50%
+      );
+    background-repeat: no-repeat;
+  }
+
+  .bg-gradient-light {
+    background-color:hsla(0,0%,100%,1);
+background-image:
+radial-gradient(at 0% 0%, hsla(262,65%,74%,1) 0px, transparent 50%),
+radial-gradient(at 100% 100%, hsla(248,78%,68%,1) 0px, transparent 50%);
     background-repeat: no-repeat;
   }
 }
