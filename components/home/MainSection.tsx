@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+// shadcn
+import { Button } from "../ui/button";
+import Link from "next/link";
+
 const MainSection = () => {
   return (
     <section className="flex flex-col justify-center items-center py-10 my-10 gap-10">
@@ -16,10 +20,20 @@ const MainSection = () => {
       <Image
         src="/images/me.png"
         alt="Rachit Bharadwaj"
-        width={500}
-        height={500}
-        className="rounded-full h-52 w-fit ring-4 ring-secondary "
+        width={1000}
+        height={1000}
+        className="rounded-full h-52 w-fit ring-4 ring-secondary"
       />
+
+      <div className="flex gap-5 lg:mt-10">
+        <Button variant="outline" size="lg">
+          <Link href="/resume.pdf">Resume</Link>
+        </Button>
+
+        <Button variant="secondary" size="lg">
+          <Link href="/about">About me</Link>
+        </Button>
+      </div>
     </section>
   );
 };
