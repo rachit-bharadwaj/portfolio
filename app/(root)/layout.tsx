@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 import "@/app/globals.css";
 
 // components
-import { Navbar } from "@/components/shared";
+import { Header, Navbar } from "@/components/shared";
 
 // containers
 import { ThemeProvider } from "@/containers";
@@ -28,9 +28,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={poppins.variable}>
+      <body className={`dark:bg-gradient h-screen transition-opacity duration-500 ${poppins.variable}`}>
         <ThemeProvider>
+          <Header />
+
           <Navbar />
+
           {children}
         </ThemeProvider>
       </body>
