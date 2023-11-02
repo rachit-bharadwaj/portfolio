@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 
 const MainSection = () => {
   return (
-    <section className="flex flex-col justify-center items-center py-10 my-10 gap-10">
+    <section className="flex flex-col justify-center items-center py-20 gap-10">
       <div className="flex flex-col gap-3">
         <p>Hello, I&apos;m</p>
 
@@ -27,11 +27,11 @@ const MainSection = () => {
 
       <div className="flex gap-5 lg:mt-10">
         <Button variant="outline" size="lg">
-          <Link href="/resume.pdf" className="text-lg">Resume</Link>
+          <Link href="/resume.pdf" className="md:text-lg">Resume</Link>
         </Button>
 
         <Button variant="secondary" size="lg">
-          <Link href="/about" className="text-lg">About me</Link>
+          <Link href="/about" className="md:text-lg">About me</Link>
         </Button>
       </div>
     </section>

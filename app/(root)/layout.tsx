@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`bg-gradient-light dark:bg-gradient text-dark dark:text-light h-screen transition-opacity duration-500 ${poppins.variable}`}
+        className={`bg-gradient-light dark:bg-gradient min-h-screen text-dark dark:text-light transition-opacity duration-500 ${poppins.variable}`}
       >
         <ThemeProvider>
           <Header />
