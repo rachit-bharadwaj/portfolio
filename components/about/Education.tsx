@@ -3,8 +3,8 @@ import { EducationField } from "@/props";
 
 const Education = () => {
   return (
-    <section className="flex flex-col items-center justify-center">
-      <h2 className="text-2xl font-bold text-secondary mb-3 mt-7 text-left w-full">Education</h2>
+    <section className="flex flex-col items-center justify-center mt-20">
+      <h2 className="text-2xl font-bold text-secondary mb-3 text-left w-full">Education</h2>
 
       <div className="flex flex-wrap gap-7">
         <EducationField

@@ -12,7 +12,7 @@ const AboutCard = ({ link, Icon, title, duration }: AboutProps) => {
       >
         <Icon className="text-xl text-secondary" />
         <p className="text-xl">{title}</p>
-        <p className="text-xs">{duration}</p>
+        <p className="text-xs text-gray-400">{duration}</p>
       </button>
     </Link>
   );

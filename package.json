@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@plaiceholder/base64": "^1.0.0",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-switch": "^1.0.3",
     "@radix-ui/react-tooltip": "^1.0.7",
@@ -20,6 +21,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.11.0",
+    "sharp": "^0.32.6",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7"
   },
