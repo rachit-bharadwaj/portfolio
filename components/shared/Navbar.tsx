@@ -17,10 +17,10 @@ import {
 
 const Navbar = () => {
   return (
-    <nav className="text-gray-200 bottom-5 fixed flex w-full justify-center items-center
+    <nav className="text-gray-200 bottom-5 fixed z-[90] flex w-full justify-center items-center
                     lg:w-fit lg:h-screen lg:p-5">
       <TooltipProvider>
-        <ul className="flex gap-5 text-2xl max-w-fit py-3 px-5 rounded-full bg-dark transition-opacity bg-opacity-75 bg-blur items-center
+        <ul className="flex gap-5 text-2xl max-w-fit py-3 px-5 rounded-full bg-dark transition-opacity bg-opacity-60 bg-blur items-center
                        lg:flex-col lg:py-5 xl:text-3xl">
           <li>
             <Link href="/">
