@@ -25,7 +25,7 @@ const About = async () => {
 
   return (
     <div className="flex flex-col items-center py-14 gap-10 px-10 pb-24">
-      <h1 className="text-3xl font-bold">About Me</h1>
+      <h1 className="text-4xl font-bold">About Me</h1>
 
       <section className="flex flex-col gap-7 items-center md:flex-row lg:gap-16">
         <Image
@@ -87,3 +87,9 @@ const About = async () => {
 };
 
 export default About;
+
+export const generateMetadata = () => {
+  return {
+    title: "About | Rachit Bharadwaj",
+  };
+};

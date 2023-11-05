@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 // next themes
 import { useTheme } from "next-themes";
@@ -34,13 +35,15 @@ const Header = () => {
         scrolling ? "bg-blur" : "bg-transparent"
       }`}
     >
-      <Image
-        src="/images/sign.png"
-        height={100}
-        width={100}
-        alt="signature"
-        className="filter invert dark:filter-none"
-      />
+      <Link href="/">
+        <Image
+          src="/images/sign.png"
+          height={100}
+          width={100}
+          alt="signature"
+          className="filter invert dark:filter-none"
+        />
+      </Link>
 
       <button className="flex gap-1 text-3xl lg:text-3xl" onClick={toggleTheme}>
         {theme === "light" ? <BiSolidMoon /> : <BiSun />}
