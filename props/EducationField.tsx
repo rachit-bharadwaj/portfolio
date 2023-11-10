@@ -1,4 +1,4 @@
-import { EducationFieldProps } from "@/types";
+import { EducationFieldProps } from "@/interfaces";
 
 const EducationField = ({
   institute,

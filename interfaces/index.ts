@@ -39,3 +39,9 @@ export interface SocialProps {
   Icon: React.ElementType;
   link: string;
 }
+
+export interface SkillProps {
+  tech: string;
+  logo: string;
+  key: null | number;
+}

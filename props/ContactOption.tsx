@@ -1,4 +1,4 @@
-import { ContactProps } from "@/types";
+import { ContactProps } from "@/interfaces";
 import Link from "next/link";
 
 const ContactOption = ({ Icon, title, link, detail }: ContactProps) => {

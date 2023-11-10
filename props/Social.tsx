@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SocialProps } from "@/types";
+import { SocialProps } from "@/interfaces";
 
 const Social = ({ Icon, link }: SocialProps) => {
   return (

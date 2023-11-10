@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 // types
-import { AboutProps } from "@/types";
+import { AboutProps } from "@/interfaces";
 
 const AboutCard = ({ link, Icon, title, duration }: AboutProps) => {
   return (

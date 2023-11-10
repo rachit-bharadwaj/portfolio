@@ -1,4 +1,4 @@
-import { PORProps } from "@/types";
+import { PORProps } from "@/interfaces";
 
 const Position = ({
   event,

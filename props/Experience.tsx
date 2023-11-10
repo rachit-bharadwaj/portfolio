@@ -1,4 +1,4 @@
-import { ExperienceProps } from "@/types";
+import { ExperienceProps } from "@/interfaces";
 
 const Experience = ({
   company,

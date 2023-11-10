@@ -26,13 +26,17 @@ const MainSection = () => {
       />
 
       <div className="flex gap-5 lg:mt-10">
-        <Button variant="outline" size="lg">
-          <Link href="/resume.pdf" className="md:text-lg">Resume</Link>
-        </Button>
+        <Link href="/resume.pdf">
+          <Button variant="outline" size="lg">
+            <p className="md:text-lg">Resume</p>
+          </Button>
+        </Link>
 
-        <Button variant="secondary" size="lg">
-          <Link href="/about" className="md:text-lg">About me</Link>
-        </Button>
+        <Link href="/about">
+          <Button variant="secondary" size="lg">
+            <p className="md:text-lg">About me </p>
+          </Button>
+        </Link>
       </div>
     </section>
   );
