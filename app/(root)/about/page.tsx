@@ -35,7 +35,7 @@ const About = async () => {
 
       <section className="flex flex-col gap-7 items-center md:flex-row lg:gap-16">
         <Image
-          src="/images/meSidelook.jpeg"
+          src="/images/me-sidelook.jpeg"
           alt="Rachit Bharadwaj"
           width={1000}
           height={1000}
