@@ -55,3 +55,9 @@ export interface ProjectProps {
   techLogo: string | string[];
   techStack: string | string[];
 }
+
+export interface AchievementProps {
+  logo: string;
+  title: string;
+  description: string;
+}
