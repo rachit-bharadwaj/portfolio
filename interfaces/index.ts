@@ -41,7 +41,7 @@ export interface SocialProps {
 }
 
 export interface SkillProps {
-  tech: string;
-  logo: string;
-  key: null | number;
+  domain: string;
+  logo: string | string[];
+  tech: string | string[];
 }
