@@ -45,3 +45,13 @@ export interface SkillProps {
   logo: string | string[];
   tech: string | string[];
 }
+
+export interface ProjectProps {
+  title: string;
+  description: string;
+  preview: string;
+  githubLink: string;
+  liveLink: string;
+  techLogo: string | string[];
+  techStack: string | string[];
+}

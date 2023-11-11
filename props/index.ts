@@ -4,3 +4,4 @@ export { default as Position } from "./Position";
 export { default as Experience } from "./Experience";
 export { default as ContactOption } from "./ContactOption";
 export { default as Skill } from "./Skill";
+export { default as Project } from "./Project";
