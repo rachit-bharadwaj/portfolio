@@ -1,4 +1,3 @@
-import { techDomain } from "@/constants";
 import { Skill } from "@/props";
 
 const Skills = () => {

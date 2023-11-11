@@ -5,7 +5,7 @@ import { SkillProps } from "@/interfaces";
 
 const Skill = ({ domain, tech, logo }: SkillProps) => {
   return (
-    <div className="bg-dark rounded-xl p-3 flex flex-col gap-3 mx-auto">
+    <div className="bg-dark/75 dark:bg-dark rounded-3xl p-5 flex flex-col gap-3 mx-auto text-light">
       <p className="text-center text-lg">{domain}</p>
 
       <div className="flex flex-wrap gap-5 w-64 justify-center items-center h-full md:w-72">

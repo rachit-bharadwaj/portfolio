@@ -6,11 +6,11 @@ const Content = () => {
       <p>
         I&apos;ve spent over 2 years honing my skills as a Full Stack Developer,
         working on a variety of&nbsp;
-        <Link href="/skills" className="text-secondary">
+        <Link href="/projects" className="text-secondary">
           <span>projects</span>
         </Link>
         &nbsp;and gaining valuable industry-level&nbsp;
-        <Link href="/skills" className="text-secondary">
+        <Link href="/work" className="text-secondary">
           <span>experience</span>
         </Link>
         &nbsp;.

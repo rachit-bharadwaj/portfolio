@@ -16,11 +16,17 @@ import { Button } from "@/components/ui/button";
 
 import { getBase64 } from "@plaiceholder/base64";
 import fs from "fs";
+import path from "path";
 
 const About = async () => {
+  // get path to current directory
+  const __dirname = path.resolve();
+
+  // read image file
   const image = fs.readFileSync(
-    "C:/Users/Rachit/Documents/Code/Web-dev/portfolio/public/images/me-sidelook.jpeg"
+    path.join(__dirname, "/public/images/me-sidelook.jpeg")
   );
+
   const base64String = await getBase64(image);
 
   return (
@@ -29,7 +35,7 @@ const About = async () => {
 
       <section className="flex flex-col gap-7 items-center md:flex-row lg:gap-16">
         <Image
-          src="/images/me-sidelook.jpeg"
+          src="/images/meSidelook.jpeg"
           alt="Rachit Bharadwaj"
           width={1000}
           height={1000}

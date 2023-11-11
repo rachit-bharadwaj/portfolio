@@ -20,17 +20,17 @@ const Work = () => {
       <POR />
 
       <div className="flex gap-5 lg:mt-10">
-        <Button variant="outline" size="lg">
-          <Link href="/contact" className="md:text-lg">
-            Hire Me
-          </Link>
-        </Button>
+        <Link href="/contact">
+          <Button variant="outline" size="lg">
+            <p className="md:text-lg">Hire Me</p>
+          </Button>
+        </Link>
 
-        <Button variant="secondary" size="lg">
-          <Link href="/projects" className="md:text-lg">
-            Projects
-          </Link>
-        </Button>
+        <Link href="/projects">
+          <Button variant="secondary" size="lg">
+            <p className="md:text-lg">Projects</p>
+          </Button>
+        </Link>
       </div>
     </div>
   );
