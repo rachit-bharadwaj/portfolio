@@ -1,5 +1,4 @@
-import Head from "next/head";
-
+import { ReactNode } from "react";
 import "@/app/globals.css";
 
 import { Poppins } from "next/font/google";
@@ -27,21 +26,11 @@ export default function RootLayout({
   children,
   pageTitle,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   pageTitle: string;
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Head>
-        {/* meta data */}
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="description" content={metadata.description} />
-        <title>
-          {pageTitle ? `${pageTitle} | ${metadata.title}` : `${metadata.title}`}
-        </title>
-      </Head>
-
       <body
         className={`bg-gradient-light dark:bg-gradient min-h-screen text-dark dark:text-light transition-opacity duration-500 ${poppins.variable}`}
       >
