@@ -14,6 +14,22 @@ const Projects = () => {
         techLogo={[
           "/logos/nextjs.svg",
           "/logos/node.svg",
+          "/logos/mongodb.svg",
+          "/logos/tailwind.svg",
+        ]}
+        techStack={["Next JS", "Node JS", "Tailwind CSS"]}
+      />
+
+      <Project
+        title="Simple Image Uploader"
+        description="Simple Image Uploader: A sleek solution for seamless image uploading and management. Powered by Next.js and MongoDB, it guarantees secure, user-friendly functionality. Perfect for efficient image management."
+        preview="/images/projects/simple-image-uploader.png"
+        githubLink="https://github.com/rachit-bharadwaj/simple-image-uploader"
+        liveLink="https://simple-image-uploader-project.vercel.app"
+        techLogo={[
+          "/logos/nextjs.svg",
+          "/logos/node.svg",
+          "/logos/mongodb.svg",
           "/logos/tailwind.svg",
         ]}
         techStack={["Next JS", "Node JS", "Tailwind CSS"]}
