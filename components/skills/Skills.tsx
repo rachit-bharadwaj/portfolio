@@ -9,7 +9,7 @@ const Skills = () => {
 
       {/* mapping the technologies */}
 
-      <div className="flex flex-wrap gap-10">
+      <div className="flex flex-wrap justify-center gap-10">
         <Skill
           domain="Frontend Dev"
           logo={[
@@ -50,6 +50,12 @@ const Skills = () => {
           domain="Database"
           logo={["/logos/mongodb.svg", "/logos/mongoose.svg"]}
           tech={["MongoDB", "Mongoose"]}
+        />
+
+        <Skill
+          domain="Mobile Dev"
+          logo={["/logos/react-native.svg", "/logos/expo.svg"]}
+          tech={["React Native", "Expo"]}
         />
 
         <Skill

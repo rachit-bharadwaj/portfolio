@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 const Contact = () => {
   return (
     <div className="flex flex-col items-center py-14 gap-10 px-10 pb-24">
-      <h1 className="text-4xl font-bold">Let&apos; Connect</h1>
+      <h1 className="text-4xl font-bold">Let&apos;s Connect</h1>
 
       {/* --------- social links --------- */}
       <ContactSection />
