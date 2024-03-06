@@ -7,7 +7,7 @@ const POR = () => {
         Position of Responsibility
       </h2>
 
-      <div className="flex flex-wrap gap-7">
+      <div className="flex flex-wrap gap-10">
         <Position
           event="Google Developer Student Clubs, VBSPU"
           position="Management Lead"

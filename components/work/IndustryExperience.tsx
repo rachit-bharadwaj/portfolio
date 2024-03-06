@@ -7,15 +7,23 @@ const IndustryExperience = () => {
         Industry Experience
       </h2>
 
-      <div className="flex flex-wrap gap-7">
+      <div className="flex flex-wrap gap-10">
+        <Experience
+          company="CodeXcelerate"
+          position="Full-Stack Web Developer Intern"
+          startDate="FEB 2024"
+          endDate="PRESENT"
+          description=" Working on AWSservices like DynamoDB, S3 etc for full-stack
+          industry-level projects. I build optimized web-applications using trending technologies like
+          Next.js, Tailwind CSS, Shadcn and other relevant technologies."
+        />
         <Experience
           company="ELVDRIVE"
-          position="Web Developer"
+          position="Web Developer Intern"
           startDate="MAY 2023"
-          endDate="AUG 2023"
-          description="At ELVDRIVE, my web development internship focused on HTML, CSS, React JS, and
-          JavaScript. I gained practical experience through real-world projects, improving
-          my front-end skills and problem-solving abilities."
+          endDate="OCT 2023"
+          description="Worked on multiple projects for various companies, focusing on React.js development and other core technologies like EJS and Express.js. Led frontend development, optimizing functionality and performance
+          with React.js."
         />
       </div>
     </section>
