@@ -48,8 +48,12 @@ const Skills = () => {
 
         <Skill
           domain="Database"
-          logo={["/logos/mongodb.svg", "/logos/mongoose.svg"]}
-          tech={["MongoDB", "Mongoose"]}
+          logo={[
+            "/logos/mongodb.svg",
+            "/logos/mongoose.svg",
+            "/logos/dynamoDB.svg",
+          ]}
+          tech={["MongoDB", "Mongoose", "DynamoDB"]}
         />
 
         <Skill
@@ -64,9 +68,11 @@ const Skills = () => {
             "/logos/git.svg",
             "/logos/github.svg",
             "/logos/vscode.svg",
+            "/logos/aws.svg",
+            "/logos/firebase.svg",
             "/logos/postman.svg",
           ]}
-          tech={["Git", "Github", "VS Code", "Postman"]}
+          tech={["Git", "Github", "VS Code", "AWS", "Firebase", "Postman"]}
         />
       </div>
     </section>
