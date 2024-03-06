@@ -50,14 +50,14 @@ const About = async () => {
               link="/work"
               Icon={HiOutlineBriefcase}
               title="Experience"
-              duration="6 months"
+              duration="8 months+"
             />
 
             <AboutCard
               link="/projects"
               Icon={BsFillFileEarmarkCodeFill}
               title="Projects"
-              duration="10+"
+              duration="5+"
             />
           </div>
 
