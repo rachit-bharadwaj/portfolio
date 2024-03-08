@@ -40,11 +40,11 @@ export default function RootLayout({
         <ThemeProvider>
           <Header />
 
+          <Analytics />
+
           <Navbar />
 
           {children}
-
-          <Analytics />
         </ThemeProvider>
       </body>
     </html>
