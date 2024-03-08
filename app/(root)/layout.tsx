@@ -1,5 +1,8 @@
 import { ReactNode } from "react";
+
 import "@/app/globals.css";
+
+import { Analytics } from "@vercel/analytics/react";
 
 import { Poppins } from "next/font/google";
 
@@ -40,6 +43,8 @@ export default function RootLayout({
           <Navbar />
 
           {children}
+
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
