@@ -50,7 +50,7 @@ const About = async () => {
               link="/work"
               Icon={HiOutlineBriefcase}
               title="Experience"
-              duration="8 months+"
+              duration="10 months+"
             />
 
             <AboutCard
@@ -61,13 +61,16 @@ const About = async () => {
             />
           </div>
 
-          <p className="max-w-md text-gray-400">
+          <p className="max-w-xl text-gray-400">
             I am a full stack developer based in India. I have worked on
             multiple projects and have experience in working with different
-            technologies. I am a B.Tech undergrad and have been working on web
-            development for the past 2 years. I have worked with ReactJS,
-            NextJS, NodeJS, ExpressJS, MongoDB, TailwindCSS and many more.
-            Always looking up for opportunities.
+            technologies. I am a B.Tech graduate and have been working on web
+            development for the past 3+ years with an internship experience of
+            about 10 months. I have worked with ReactJS, NextJS, NodeJS,
+            ExpressJS, MongoDB, TailwindCSS and many more including AWS and
+            Firebase covering leading full stack technologies and market
+            requirements. I&apos;m looking up opportunities to work at industry
+            level projects and contribute to the technical world.
           </p>
         </div>
       </section>

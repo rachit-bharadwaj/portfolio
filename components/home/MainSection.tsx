@@ -14,7 +14,7 @@ const MainSection = () => {
           Rachit Bharadwaj
         </h1>
 
-        <p>Fullstack Developer | B.Tech Undergrad</p>
+        <p>Fullstack Developer | B.Tech IT Graduate</p>
       </div>
 
       <Image

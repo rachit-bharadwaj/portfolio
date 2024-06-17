@@ -11,8 +11,8 @@ const Education = () => {
           institute="Veer Bahadur Singh Purvanchal University, Jaunpur"
           degree="B.Tech. Information Technology"
           startDate="DEC 2020"
-          endDate="PRESENT"
-          percentage={62.19}
+          endDate="MAY 2024"
+          percentage={67.50}
         />
 
         <EducationField
