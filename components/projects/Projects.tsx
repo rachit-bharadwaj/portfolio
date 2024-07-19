@@ -21,6 +21,30 @@ const Projects = () => {
       />
 
       <Project
+        title="Chatox"
+        description="Chatox is a feature-rich web application designed for seamless real-time communication. Built with modern technologies like MERN stack, TypeScript, MongoDB, Socket.IO and more, Chatox offers a smooth and responsive UI for users to connect and chat."
+        preview="/images/projects/chatox.png"
+        githubLink="https://github.com/rachit-bharadwaj/chatox"
+        liveLink="https://chatox-vzh5.onrender.com/"
+        techLogo={[
+          "/logos/reactjs.svg",
+          "/logos/node.svg",
+          "/logos/express.svg",
+          "/logos/mongodb.svg",
+          "/logos/socketio.svg",
+          "/logos/tailwind.svg",
+        ]}
+        techStack={[
+          "React JS",
+          "Node JS",
+          "Express JS",
+          "MongoDB",
+          "Socket.IO",
+          "Tailwind CSS",
+        ]}
+      />
+
+      <Project
         title="Simple Image Uploader"
         description="Simple Image Uploader: A sleek solution for seamless image uploading and management. Powered by Next.js and MongoDB, it guarantees secure, user-friendly functionality. Perfect for efficient image management."
         preview="/images/projects/simple-image-uploader.png"
@@ -56,13 +80,13 @@ const Projects = () => {
         githubLink="https://github.com/rachit-bharadwaj/weather-app"
         liveLink="https://weather-app-express-project.vercel.app/"
         techLogo={[
+          "/logos/node.svg",
+          "/logos/express.svg",
           "/logos/html.svg",
           "/logos/js.svg",
           "/logos/tailwind.svg",
-          "/logos/node.svg",
-          "/logos/express.svg",
         ]}
-        techStack={["HTML", "JS", "Tailwind CSS"]}
+        techStack={["Node JS", "Express JS", "HTML", "JS", "Tailwind CSS"]}
       />
 
       <Project

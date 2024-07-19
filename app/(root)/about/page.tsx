@@ -57,7 +57,7 @@ const About = async () => {
               link="/projects"
               Icon={BsFillFileEarmarkCodeFill}
               title="Projects"
-              duration="5+"
+              duration="6+"
             />
           </div>
 

@@ -12,9 +12,9 @@ const IndustryExperience = () => {
           company="CodeXcelerate"
           position="Full-Stack Web Developer Intern"
           startDate="FEB 2024"
-          endDate="PRESENT"
-          description=" Working on AWSservices like DynamoDB, S3 etc for full-stack
-          industry-level projects. I build optimized web-applications using trending technologies like
+          endDate="MAY 2024"
+          description=" Worked on AWS services like DynamoDB, S3 etc for full-stack
+          industry-level projects. I built optimized web-applications using trending technologies like
           Next.js, Tailwind CSS, Shadcn and other relevant technologies."
         />
         <Experience
@@ -22,7 +22,7 @@ const IndustryExperience = () => {
           position="Web Developer Intern"
           startDate="MAY 2023"
           endDate="OCT 2023"
-          description="Worked on multiple projects for various companies, focusing on React.js development and other core technologies like EJS and Express.js. Led frontend development, optimizing functionality and performance
+          description="Worked on multiple projects for various companies, focusing on React.js for frontend development and other core technologies like EJS and Express.js. Led frontend development, optimizing functionality and performance
           with React.js."
         />
       </div>

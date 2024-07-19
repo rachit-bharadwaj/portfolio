@@ -18,6 +18,7 @@ const Skills = () => {
             "/logos/ts.svg",
             "/logos/js.svg",
             "/logos/redux.svg",
+            "/logos/zustand.png",
             "/logos/tailwind.svg",
             "/logos/html.svg",
             "/logos/css.svg",
@@ -28,6 +29,7 @@ const Skills = () => {
             "TypeScript",
             "JavaScript",
             "Redux",
+            "Zustand",
             "Tailwind CSS",
             "HTML",
             "CSS",
@@ -40,10 +42,18 @@ const Skills = () => {
             "/logos/node.svg",
             "/logos/express.svg",
             "/logos/nextjs.svg",
+            "/logos/socketio.svg",
             "/logos/nextauth.png",
             "/logos/clerk.svg",
           ]}
-          tech={["Node.js", "Express.js", "Next.js", "Next Auth", "Clerk"]}
+          tech={[
+            "Node.js",
+            "Express.js",
+            "Next.js",
+            "Socket.io",
+            "Next Auth",
+            "Clerk",
+          ]}
         />
 
         <Skill
@@ -70,9 +80,18 @@ const Skills = () => {
             "/logos/vscode.svg",
             "/logos/aws.svg",
             "/logos/firebase.svg",
+            "/logos/vite.svg",
             "/logos/postman.svg",
           ]}
-          tech={["Git", "Github", "VS Code", "AWS", "Firebase", "Postman"]}
+          tech={[
+            "Git",
+            "Github",
+            "VS Code",
+            "AWS",
+            "Firebase",
+            "Vite",
+            "Postman",
+          ]}
         />
       </div>
     </section>
