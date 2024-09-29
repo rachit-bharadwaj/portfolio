@@ -1,1 +1,1 @@
-This is a portfolio project built using NextJS, TailwindCSS and more. It is a simple website that displays my skills and projects. It is hosted on Vercel and can be found at [https://www.joshuamichaelwaggoner.com](https://www.joshuamichaelwaggoner.com).
+This is a portfolio project built using NextJS, TailwindCSS and more. It is a simple website that displays my skills and projects.
