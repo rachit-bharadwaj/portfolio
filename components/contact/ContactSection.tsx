@@ -25,8 +25,8 @@ const Social = () => {
       <ContactOption
         Icon={AiOutlineWhatsApp}
         title="WhatsApp"
-        detail="+91 9918191369"
-        link="https://wa.me/+919918191369"
+        detail="+91 7905144331"
+        link="https://wa.me/+917905144331"
       />
     </section>
   );
